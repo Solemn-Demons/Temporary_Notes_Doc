@@ -1,0 +1,25 @@
+body {
+    flex: 4;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 5px 5px blue;
+    background-color: black;
+    color: aliceblue;
+    padding: 15px;
+    margin-top: 2%;
+    width: fit-content;
+}
+
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
